@@ -78,7 +78,7 @@ For converting audit log to relational-interaction graph and displaying.
 
 ```bash
 cd src
-python parse.py ../data/ 100 0.7
+python parse.py 100 0.7
 ```
 
 This will take some time as the zip files will be unzipped and read into series for display.  When finished, a plot will show for each sensor.

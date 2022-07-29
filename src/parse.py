@@ -98,7 +98,7 @@ def main():
         return
 
     
-    rootdir_zip_files = "../data"
+    rootdir_zip_files = "../files_zip"
     rootdir_csv_files = "../files_csv"
 
     aggregation_window=int( sys.argv[1] ) # samples to average over
